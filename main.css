@@ -109,12 +109,6 @@ body {
   font-size: 1.6rem;
 }
 
-@media only screen and (max-width: 56.25em) {
-  body {
-    font-size: 2rem;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -515,7 +509,7 @@ a {
 
 @media only screen and (max-width: 56.25em) {
   .section {
-    padding: 6rem 0 10rem 0;
+    padding: 4rem 0 10rem 0;
   }
 }
 
@@ -533,12 +527,6 @@ a {
   text-align: center;
 }
 
-@media only screen and (max-width: 56.25em) {
-  .section_h2 {
-    font-size: 2.5rem;
-  }
-}
-
 .section_h3 {
   margin-bottom: 1rem;
   font-size: 1.8rem;
@@ -547,7 +535,6 @@ a {
 @media only screen and (max-width: 56.25em) {
   .section_h3 {
     text-align: center;
-    font-size: 2rem;
   }
 }
 
@@ -640,6 +627,7 @@ a {
     -webkit-box-flex: 0;
     -ms-flex: none;
     flex: none;
+    height: 40rem;
   }
 }
 
@@ -826,6 +814,8 @@ a {
 
 @media only screen and (max-width: 56.25em) {
   .phone_img {
+    height: 35rem;
+    width: 35rem;
     position: relative;
     top: -10rem;
     left: 50%;
@@ -1003,14 +993,7 @@ a {
   .popup {
     padding: 2rem;
     width: 70%;
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 56.25em) {
-  .popup-input {
-    width: 90%;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -1035,6 +1018,13 @@ a {
   height: 3rem;
   font-size: 1.8rem;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 56.25em) {
+  .popup-input {
+    width: 60%;
+    font-size: 1.4rem;
+  }
 }
 
 .popup-input:focus {
