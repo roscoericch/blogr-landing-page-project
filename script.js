@@ -37,13 +37,13 @@ const activateNav = function (target) {
   if (mql.matches) {
     return;
   }
-  target.src = "/images/icon-arrow-light.svg";
+  target.src = "icon-arrow-light.svg";
   // target.style.transform = "rotate(180deg)";
   target.classList.add("arr-btnUp");
   console.log(target);
 };
 const deactivateNav = function (target) {
-  target.src = "/images/icon-arrow-dark.svg";
+  target.src = "icon-arrow-dark.svg";
   // target.style.transform = "rotate(0deg)";
 
   target.classList.remove("arr-btnUp");
@@ -90,11 +90,11 @@ mobileToggle.addEventListener("click", (e) => {
   mobileNav.style.display = "flex";
   if (test) {
     // mobileNav.style.opacity = "1";
-    e.target.src = "/images/icon-close.svg";
+    e.target.src = "icon-close.svg";
     mobileNav.style.animation = "navFadein 2s ease forwards";
   }
   if (!test) {
-    e.target.src = "/images/icon-hamburger.svg";
+    e.target.src = "icon-hamburger.svg";
     mobileNav.style.animation = "navFadeout 2s ease forwards";
     // mobileNav.style.opacity = "0";
   }
