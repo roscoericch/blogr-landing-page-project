@@ -142,8 +142,8 @@ a {
 .header {
   height: 40rem;
   width: 100%;
-  background-image: url(../images/bg-pattern-intro-desktop.svg), -webkit-gradient(linear, left top, right bottom, from(var(--color-secondary-light-2)), to(var(--color-secondary-light-1)));
-  background-image: url(../images/bg-pattern-intro-desktop.svg), linear-gradient(to right bottom, var(--color-secondary-light-2), var(--color-secondary-light-1));
+  background-image: url(bg-pattern-intro-desktop.svg), -webkit-gradient(linear, left top, right bottom, from(var(--color-secondary-light-2)), to(var(--color-secondary-light-1)));
+  background-image: url(bg-pattern-intro-desktop.svg), linear-gradient(to right bottom, var(--color-secondary-light-2), var(--color-secondary-light-1));
   background-size: 170%;
   background-position: left;
   background-repeat: no-repeat;
@@ -636,7 +636,7 @@ a {
 
 .section_img-1 {
   width: 100%;
-  background-image: url(/images/illustration-editor-desktop.svg);
+  background-image: urillustration-editor-desktop.svg);
   background-position: 15rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -646,7 +646,7 @@ a {
 
 @media only screen and (max-width: 56.25em) {
   .section_img-1 {
-    background-image: url(/images/illustration-editor-mobile.svg);
+    background-image: urillustration-editor-mobile.svg);
     background-position: center;
     background-size: cover;
   }
@@ -654,7 +654,7 @@ a {
 
 .section_img-3 {
   width: 100%;
-  background-image: url(/images/illustration-laptop-desktop.svg);
+  background-image: urillustration-laptop-desktop.svg);
   background-position: -20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -664,7 +664,7 @@ a {
 
 @media only screen and (max-width: 56.25em) {
   .section_img-3 {
-    background-image: url(/images/illustration-laptop-mobile.svg);
+    background-image: urillustration-laptop-mobile.svg);
     background-position: center;
     background-size: cover;
   }
@@ -673,8 +673,8 @@ a {
 .section-2 {
   width: 100%;
   padding: 0 6rem;
-  background-image: url(/images/bg-pattern-circles.svg), -webkit-gradient(linear, left top, right bottom, from(var(--color-secondary-dark-1)), to(var(--color-secondary-dark-2)));
-  background-image: url(/images/bg-pattern-circles.svg), linear-gradient(to right bottom, var(--color-secondary-dark-1), var(--color-secondary-dark-2));
+  background-image: urbg-pattern-circles.svg), -webkit-gradient(linear, left top, right bottom, from(var(--color-secondary-dark-1)), to(var(--color-secondary-dark-2)));
+  background-image: urbg-pattern-circles.svg), linear-gradient(to right bottom, var(--color-secondary-dark-1), var(--color-secondary-dark-2));
   background-position: -55% 90%;
   background-repeat: no-repeat;
   background-size: 70%, cover;
